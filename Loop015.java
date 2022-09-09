@@ -7,17 +7,17 @@ public class Loop015 {
 	public static void main(String[] args) {
 	
 		Scanner input = new Scanner(System.in);
-		String w=0;
-		String c=0;
+		int w=0;
+		int c=0;
 		
 			System.out.println("Enter a string: ");
 			String num =input.nextLine();
 //			System.out.println(num.length());
 			for(int i=0; i<= num.length()-1; i++){
 				if(num.charAt(i)=='a'||num.charAt(i)=='A')
-					w+=num.charAt(i);
+					w++;
 				else 
-					w+=num.charAt(i);
+					c++;
 				
 			}	
 			System.out.println("Vowels : "+w);
